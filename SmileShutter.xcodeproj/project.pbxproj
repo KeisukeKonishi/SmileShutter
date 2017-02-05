@@ -14,6 +14,8 @@
 		0519DD4E1E4739CF00EA5D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0519DD4C1E4739CF00EA5D67 /* LaunchScreen.storyboard */; };
 		0519DD591E4739D000EA5D67 /* SmileShutterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0519DD581E4739D000EA5D67 /* SmileShutterTests.swift */; };
 		0519DD641E4739D000EA5D67 /* SmileShutterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0519DD631E4739D000EA5D67 /* SmileShutterUITests.swift */; };
+		0519DD731E473AA300EA5D67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0519DD721E473AA300EA5D67 /* AVFoundation.framework */; };
+		0519DD751E473AF900EA5D67 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0519DD741E473AF900EA5D67 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0519DD5F1E4739D000EA5D67 /* SmileShutterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileShutterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0519DD631E4739D000EA5D67 /* SmileShutterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileShutterUITests.swift; sourceTree = "<group>"; };
 		0519DD651E4739D000EA5D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0519DD721E473AA300EA5D67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0519DD741E473AF900EA5D67 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0519DD751E473AF900EA5D67 /* CoreImage.framework in Frameworks */,
+				0519DD731E473AA300EA5D67 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 				0519DD571E4739D000EA5D67 /* SmileShutterTests */,
 				0519DD621E4739D000EA5D67 /* SmileShutterUITests */,
 				0519DD411E4739CF00EA5D67 /* Products */,
+				0519DD711E473AA300EA5D67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +130,15 @@
 				0519DD651E4739D000EA5D67 /* Info.plist */,
 			);
 			path = SmileShutterUITests;
+			sourceTree = "<group>";
+		};
+		0519DD711E473AA300EA5D67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0519DD741E473AF900EA5D67 /* CoreImage.framework */,
+				0519DD721E473AA300EA5D67 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
